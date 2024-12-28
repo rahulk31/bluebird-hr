@@ -1,0 +1,111 @@
+.authContainer {
+  width: 862px;
+  min-height: 690px;
+  border-radius: 8px;
+  padding: 60px;
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.07);
+  margin: 20px;
+
+  header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 60px;
+
+    div {
+      width: 17px;
+      height: 29px;
+
+      img {
+        width: 30px;
+        height: 30px;
+      }
+    }
+
+    h3 {
+      font-size: 24px;
+      font-weight: 600;
+    }
+  }
+
+  section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    // background-color: yellow;
+    height: calc(100% - 120px);
+
+    aside {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-right: 2px solid #d3e2f4;
+    }
+
+    main {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+      margin-left: 40px;
+
+      header {
+        .active {
+          font-size: 40px;
+          font-weight: 600;
+          color: #4b93e7;
+          position: relative;
+          cursor: pointer;
+
+          &::after {
+            position: absolute;
+            content: "";
+            display: block;
+            width: 40px;
+            height: 4px;
+            background-color: #f7ac25;
+            margin-top: 10px;
+            bottom: -5px;
+            border-radius: 8px;
+          }
+        }
+
+        p {
+          font-size: 24px;
+          font-weight: 400;
+          color: #4b93e7;
+          padding-left: 20px;
+          border-left: 2px solid #d3e2f4;
+          cursor: pointer;
+        }
+      }
+
+      footer {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 10px;
+
+        button {
+          border: none;
+          height: 48px;
+          font-size: 16px;
+          font-weight: 600;
+          line-height: 24px;
+
+          &:first-child {
+            background-color: #f7ac25;
+            color: #fff;
+            border-radius: 8px;
+          }
+
+          &:last-child {
+            background-color: #4b93e7;
+            color: #fff;
+            border-radius: 8px;
+          }
+        }
+      }
+    }
+  }
+}
