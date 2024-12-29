@@ -1,0 +1,103 @@
+import {
+  Overview1,
+  Overview2,
+  Overview3,
+  Overview4,
+  Overview5,
+  Overview6,
+  Overview7,
+  Overview8,
+} from "../assets";
+
+export const overviewCardData = [
+  { id: 1, stats: 33, cardName: "Interview Scheduled", cardImage: Overview1 },
+  {
+    id: 2,
+    stats: 2,
+    cardName: "Interview Feedback Pending",
+    cardImage: Overview2,
+  },
+  { id: 3, stats: 44, cardName: "Approval Pending", cardImage: Overview3 },
+  {
+    id: 4,
+    stats: 13,
+    cardName: "Offer Acceptance Pending",
+    cardImage: Overview4,
+  },
+  {
+    id: 5,
+    stats: 17,
+    cardName: "Documentations Pending",
+    cardImage: Overview5,
+  },
+  { id: 6, stats: 3, cardName: "Training Pending", cardImage: Overview6 },
+  {
+    id: 7,
+    stats: 5,
+    cardName: "Supervisor Allocation Pending",
+    cardImage: Overview7,
+  },
+  {
+    id: 8,
+    stats: 56,
+    cardName: "Project Allocation Pending",
+    cardImage: Overview8,
+  },
+];
+
+export const requireAttentionData = [
+  {
+    id: 1,
+    position: "Senior Data Analyst",
+    positionsLeft: 3,
+    applications: 123,
+    interviewed: 40,
+    rejected: 33,
+    feedbackPending: 7,
+  },
+  {
+    id: 2,
+    position: "Junior Data Analyst",
+    positionsLeft: 3,
+    applications: 123,
+    interviewed: 40,
+    rejected: 33,
+    feedbackPending: 7,
+  },
+  {
+    id: 3,
+    position: "Product Designer",
+    positionsLeft: 3,
+    applications: 123,
+    interviewed: 40,
+    rejected: 33,
+    feedbackPending: 7,
+  },
+  {
+    id: 4,
+    position: "Java Developer",
+    positionsLeft: 3,
+    applications: 123,
+    interviewed: 40,
+    rejected: 33,
+    feedbackPending: 7,
+  },
+  {
+    id: 5,
+    position: "Product Manager",
+    positionsLeft: 3,
+    applications: 123,
+    interviewed: 40,
+    rejected: 33,
+    feedbackPending: 7,
+  },
+  {
+    id: 6,
+    position: "React Developer",
+    positionsLeft: 3,
+    applications: 123,
+    interviewed: 40,
+    rejected: 33,
+    feedbackPending: 7,
+  },
+];
