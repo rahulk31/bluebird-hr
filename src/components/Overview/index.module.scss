@@ -1,0 +1,50 @@
+.overviewContainer {
+  .top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+
+    h1 {
+      font-size: 22px;
+      font-weight: 600;
+    }
+
+    .overviewCTAS {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      gap: 20px;
+
+      button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        background-color: #4b93e7;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 8px;
+
+        img {
+          width: 24px;
+          height: 24px;
+        }
+
+        span {
+          color: #fff;
+          font-size: 16px;
+          font-weight: 600;
+        }
+      }
+    }
+  }
+
+  .bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // gap: 10px;
+    flex-wrap: wrap;
+  }
+}

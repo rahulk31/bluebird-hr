@@ -1,0 +1,36 @@
+.dashboardContainer {
+  display: grid;
+  grid-template-areas:
+    "nav header"
+    "nav mainContent";
+  grid-template-columns: 183px 1fr;
+  grid-template-rows: 83px auto;
+  min-height: 100vh;
+
+  nav {
+    grid-area: nav;
+  }
+
+  header {
+    grid-area: header;
+  }
+
+  .mainContent {
+    display: grid;
+    grid-area: mainContent;
+    grid-template-columns: 3fr 320px;
+    padding: 20px;
+    background-color: #e5edf9;
+    gap: 20px;
+
+    div {
+      // border: 1px dashed red;
+    }
+
+    aside {
+      background-color: #f3f8ff;
+      border: 1px dashed red;
+      padding: 10px;
+    }
+  }
+}
