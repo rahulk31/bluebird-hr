@@ -3,7 +3,7 @@ import styles from "./index.module.scss";
 import Logo from "../../assets/logo.svg";
 import AuthIllustration from "../../assets/authPageIllustration.svg";
 import Login from "../../components/Login";
-import Signup from "../../components/SignUp";
+import Signup from "../../components/Signup";
 
 const AuthContainer = () => {
   const [showLogin, setShowLogin] = useState(true);
