@@ -1,5 +1,5 @@
-import styles from "./index.module.scss";
 import EyeOff from "../../assets/eye-off.svg";
+import styles from "./index.module.scss";
 
 const Signup = () => {
   return (
