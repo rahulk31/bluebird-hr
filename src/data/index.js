@@ -101,3 +101,133 @@ export const requireAttentionData = [
     feedbackPending: 7,
   },
 ];
+
+export const calendarData = [
+  {
+    dayOrWeek: "Today",
+    meetings: [
+      {
+        id: 1,
+        duration: "3:15 - 3:45",
+        timeOrDay: "3:15",
+        name: "Mini Soman",
+        description: "; Mean stack developer; 4th phase interview |",
+      },
+      {
+        id: 2,
+        duration: "3:15 - 3:45",
+        timeOrDay: "3:15",
+        name: "Mini Soman",
+        description: "; Mean stack developer; 4th phase interview |",
+      },
+      {
+        id: 3,
+        duration: "3:15 - 3:45",
+        timeOrDay: "3:15",
+        name: "Mini Soman",
+        description: "; Mean stack developer; 4th phase interview |",
+      },
+      {
+        id: 4,
+        duration: "3:15 - 3:45",
+        timeOrDay: "3:15",
+        name: "Mini Soman",
+        description: "; Mean stack developer; 4th phase interview |",
+      },
+    ],
+  },
+  {
+    dayOrWeek: "Tomorrow",
+    meetings: [
+      {
+        id: 1,
+        duration: "3:15 - 3:45",
+        timeOrDay: "3:15",
+        name: "Mini Soman",
+        description: "; Mean stack developer; 4th phase interview |",
+      },
+      {
+        id: 2,
+        duration: "3:15 - 3:45",
+        timeOrDay: "3:15",
+        name: "Mini Soman",
+        description: "; Mean stack developer; 4th phase interview |",
+      },
+      {
+        id: 3,
+        duration: "3:15 - 3:45",
+        timeOrDay: "3:15",
+        name: "Mini Soman",
+        description: "; Mean stack developer; 4th phase interview |",
+      },
+      {
+        id: 4,
+        duration: "3:15 - 3:45",
+        timeOrDay: "3:15",
+        name: "Mini Soman",
+        description: "; Mean stack developer; 4th phase interview |",
+      },
+    ],
+  },
+  {
+    dayOrWeek: "This Week",
+    meetings: [
+      {
+        id: 1,
+        duration: "3:15 - 3:45",
+        timeOrDay: "Jan 3",
+        name: "Mini Soman",
+        description: "; Mean stack developer; 4th phase interview |",
+      },
+      {
+        id: 2,
+        timeOrDay: "Jan 3",
+        duration: "3:15 - 3:45",
+        name: "Mini Soman",
+        description: "; Mean stack developer; 4th phase interview |",
+      },
+      {
+        id: 3,
+        timeOrDay: "Jan 4",
+        duration: "3:15 - 3:45",
+        name: "Mini Soman",
+        description: "; Mean stack developer; 4th phase interview |",
+      },
+      {
+        id: 4,
+        timeOrDay: "Jan 5",
+        duration: "3:15 - 3:45",
+        name: "Mini Soman",
+        description: "; Mean stack developer; 4th phase interview |",
+      },
+      {
+        id: 5,
+        duration: "3:15 - 3:45",
+        timeOrDay: "Jan 7",
+        name: "Mini Soman",
+        description: "; Mean stack developer; 4th phase interview |",
+      },
+      {
+        id: 6,
+        timeOrDay: "Jan 8",
+        duration: "3:15 - 3:45",
+        name: "Mini Soman",
+        description: "; Mean stack developer; 4th phase interview |",
+      },
+      {
+        id: 7,
+        timeOrDay: "Jan 8",
+        duration: "3:15 - 3:45",
+        name: "Mini Soman",
+        description: "; Mean stack developer; 4th phase interview |",
+      },
+      {
+        id: 8,
+        timeOrDay: "Jan 9",
+        duration: "3:15 - 3:45",
+        name: "Mini Soman",
+        description: "; Mean stack developer; 4th phase interview |",
+      },
+    ],
+  },
+];

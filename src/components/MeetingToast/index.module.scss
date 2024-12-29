@@ -1,0 +1,29 @@
+.meetingToastContainer {
+  background-color: #a0dbf457;
+  border-radius: 8px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border-right: 5px solid #1b5cbe70;
+  margin-bottom: 5px;
+
+  .timeOrDate {
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 18px;
+    padding: 0 15px;
+  }
+
+  .details {
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 15px;
+    border-left: 1px solid #1b5cbe70;
+    padding: 10px;
+    text-align: left;
+
+    span {
+      font-weight: 600;
+    }
+  }
+}
