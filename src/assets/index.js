@@ -1,5 +1,5 @@
 import Logo from "./logo.svg";
-import Profile from "./Jane.jpeg";
+import Profile from "./jane.jpeg";
 import AddIcon from "./AddIcon.svg";
 import Chevron from "./Chevron.svg";
 import SearchIcon from "./SearchIcon.svg";
